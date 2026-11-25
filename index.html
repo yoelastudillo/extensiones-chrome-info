@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demostración de las extensiones</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="">
+<main>
+  <header>
+    <h1>Probá las extensiones</h1>
+    <p class="muted">Página de demostración con datos ficticios. Usá los campos y botones para verificar el pegado y las alertas.</p>
+  </header>
+  <div class="grid">
+    <section aria-labelledby="plantillas">
+      <h2 id="plantillas">Plantillas de texto</h2>
+      <p>Dejá el cursor en el campo y elegí una plantilla desde el menú de la extensión.</p>
+      <label for="respuesta">Respuesta de prueba</label>
+      <textarea id="respuesta" rows="5" placeholder="Escribí o insertá un texto ficticio"></textarea>
+      <label for="asunto">Asunto de prueba</label>
+      <input id="asunto" type="text" autocomplete="off" placeholder="Campo de una línea">
+    </section>
+    <section aria-labelledby="alertas">
+      <h2 id="alertas">Alertas de texto</h2>
+      <p>Vinculá este sitio y seleccioná «Solicitud recibida». Después, usá los botones para probar el aviso.</p>
+      <p><strong>Estado para vigilar</strong></p>
+      <p id="estado-prueba" class="status">Solicitud recibida</p>
+      <div class="row">
+        <button id="cambiar" type="button">Cambiar estado</button>
+        <button id="ocultar" type="button" class="secondary">Ocultar estado</button>
+        <button id="restaurar" type="button" class="secondary">Restaurar estado</button>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <a href="politica-plantillas.html">Privacidad de Plantillas de texto</a> ·
+    <a href="politica-alertas.html">Privacidad de Alertas de texto</a>
+  </footer>
+</main>
+<script src="demo.js" defer></script>
+</body>
+</html>
