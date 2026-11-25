@@ -1,0 +1,1 @@
+# extensiones-chrome-info
